@@ -262,6 +262,8 @@ var loadTasks = function() {
         listItemEl.querySelector("select[name='status-change']").selectedIndex = 2;
         tasksCompletedEl.appendChild(listItemEl)
       }
+      taskIdCounter++
+      console.log(listItemEl);
     })
   } else {
     tasks = [];
